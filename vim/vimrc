@@ -1,0 +1,70 @@
+" Use Vim settings instead of Vi settings
+set nocompatible
+
+" General -------------------------------------------------------------------
+set number                        " Line numbers
+set nowrap                        " Disable word wrap
+set autoread                      " Reload files changed outside Vim
+set hlsearch                      " Enable search highlighting
+set colorcolumn=78                " Column highlight
+set laststatus=2                  " Always show status line
+set mouse=a                       " Enable mouse
+set clipboard=unnamed             " Use system clipboard
+set backspace=indent,eol,start    " Allow backspace in insert mode
+set list listchars=tab:▸\ ,eol:¬  " Show tab and end of line characters
+
+let mapleader = ","               " Change leader from \ to ,
+
+syntax on                         " Turn on syntax highlighting
+
+
+" Vundle --------------------------------------------------------------------
+filetype off                      " Required by Vundle
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Let Vundle manage Vundle
+Bundle "gmarik/vundle"
+
+Bundle "kien/ctrlp.vim"
+Bundle "scrooloose/syntastic"
+Bundle "majutsushi/tagbar"
+Bundle "altercation/vim-colors-solarized"
+Bundle "Lokaltog/vim-easymotion"
+Bundle "jnwhiteh/vim-golang"
+Bundle "Lokaltog/vim-powerline"
+Bundle "derekwyatt/vim-scala"
+
+
+" Indents -------------------------------------------------------------------
+set autoindent
+set smartindent
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
+filetype plugin on
+filetype indent on
+
+
+" Ignores -------------------------------------------------------------------
+set wildignore+=*/tmp/*
+set wildignore+=*/log/*
+set wildignore+=*/coverage/*
+set wildignore+=*/node_modules/*
+set wildignore+=*/sass_cache/*
+set wildignore+=*DS_Store*
+set wildignore+=*.png,*.jpg,*.gif
+
+
+" Colorscheme ---------------------------------------------------------------
+try
+  set background=dark
+  let g:solarized_termcolors = $t_Co
+  let g:solarized_visibility = "high"   " Set visiblity for whitespace chars
+  colorscheme solarized
+catch /E185:/ " Colorscheme not found
+  colorscheme default
+endtry
+
