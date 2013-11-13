@@ -2,7 +2,7 @@ require 'rake'
 
 DOTFILES_HOME = ENV['HOME']
 DOTFILES_ROOT = File.dirname(__FILE__)
-DOTFILES = Dir.glob('vim/*')
+DOTFILES = Dir.glob(['vim/*', 'ruby/*'])
 
 task :install do
   Rake::Task['submodules'].invoke
