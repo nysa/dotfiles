@@ -31,10 +31,12 @@ Bundle "gmarik/vundle"
 Bundle "kien/ctrlp.vim"
 Bundle "scrooloose/syntastic"
 Bundle "majutsushi/tagbar"
-Bundle 'bling/vim-airline'
+Bundle "bling/vim-airline"
+Bundle "kchmck/vim-coffee-script"
 Bundle "altercation/vim-colors-solarized"
 Bundle "Lokaltog/vim-easymotion"
 Bundle "jnwhiteh/vim-golang"
+Bundle "pangloss/vim-javascript"
 Bundle "derekwyatt/vim-scala"
 
 
