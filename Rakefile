@@ -27,6 +27,7 @@ task :symlink do
     file = f.split('/').last
     source = "#{ENV['PWD']}/#{f}"
     target = "#{ENV['HOME']}/.#{file}"
+    system "unlink #{target}" if File.exists? target
     system "ln -vsf #{source} #{target}"
   end
 
