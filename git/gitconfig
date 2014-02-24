@@ -1,0 +1,9 @@
+[user]
+  email = nysa@nysavann.com
+
+[core]
+  editor = vim
+
+[color]
+  ui = true
+
