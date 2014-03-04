@@ -8,6 +8,13 @@
 [color]
   ui = true
 
+[alias]
+  ci = commit
+  co = checkout
+  pl = pull
+  ps = push
+  st = status --short --branch
+
 [push]
   default = upstream
 
