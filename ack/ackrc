@@ -2,4 +2,5 @@
 
 --ignore-dir=log
 --ignore-dir=coverage
+--ignore-dir=bower_components
 
