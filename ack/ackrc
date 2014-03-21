@@ -1,5 +1,6 @@
 --color
 
+--ignore-dir=.bundle
 --ignore-dir=log
 --ignore-dir=coverage
 --ignore-dir=bower_components
