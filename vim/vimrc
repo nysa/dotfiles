@@ -80,4 +80,5 @@ let g:airline_theme = "powerlineish"
 
 " Syntastic -----------------------------------------------------------------
 let g:syntastic_javascript_checkers = ["jsl"]
+let g:syntastic_scala_checkers = []
 
