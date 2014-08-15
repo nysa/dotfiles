@@ -67,7 +67,7 @@ set wildignore+=*.png,*.jpg,*.gif
 try
   set background=dark
   let g:solarized_termcolors = $t_Co
-  let g:solarized_visibility = "high"   " Set visiblity for whitespace chars
+  let g:solarized_visibility = "low"    " Set visiblity for whitespace chars
   colorscheme solarized
 catch /E185:/ " Colorscheme not found
   colorscheme default
