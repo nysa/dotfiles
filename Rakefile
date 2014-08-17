@@ -2,7 +2,7 @@ require 'rake'
 
 DOTFILES_HOME = ENV['HOME']
 DOTFILES_ROOT = File.dirname(__FILE__)
-DOTFILES = Dir.glob(['ack/*', 'git/*', 'vim/*', 'ruby/*', 'sbt/*'])
+DOTFILES = Dir.glob(['ack/*', 'bin/*', 'git/*', 'vim/*', 'ruby/*', 'sbt/*'])
 
 task :install do
   Rake::Task['submodules'].invoke
