@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# Renames an iTerm tab.
+#
+# Usage:
+#
+#   $ tabname My tab
+
+echo -ne "\033]0;"$*"\007"
+
