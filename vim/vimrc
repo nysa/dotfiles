@@ -52,6 +52,10 @@ filetype plugin on
 filetype indent on
 
 
+" File types ----------------------------------------------------------------
+autocmd BufNewFile,BufReadPost *.cljx setfiletype clojure
+
+
 " Ignores -------------------------------------------------------------------
 set wildignore+=*/tmp/*
 set wildignore+=*/log/*
@@ -86,4 +90,3 @@ let g:ctrlp_working_path_mode = ''
 " Syntastic -----------------------------------------------------------------
 let g:syntastic_javascript_checkers = ["jsl"]
 let g:syntastic_scala_checkers = []
-
