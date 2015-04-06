@@ -29,6 +29,7 @@ call vundle#rc()
 Bundle "gmarik/vundle"
 
 Bundle "kien/ctrlp.vim"
+Bundle "JuliaLang/julia-vim"
 Bundle "scrooloose/nerdtree"
 Bundle "scrooloose/syntastic"
 Bundle "majutsushi/tagbar"
