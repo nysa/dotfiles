@@ -2,7 +2,7 @@
 
 ## Installation
 
-Install using `rake`.
+Install:
 
 ```
 $ git clone https://github.com/nysa/dotfiles.git ~/dotfiles
