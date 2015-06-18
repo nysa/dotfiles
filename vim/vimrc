@@ -62,6 +62,7 @@ set wildignore+=*/tmp/*
 set wildignore+=*/log/*
 set wildignore+=*/bower_components/*
 set wildignore+=*/coverage/*
+set wildignore+=*/doc/*
 set wildignore+=*/node_modules/*
 set wildignore+=*/sass_cache/*
 set wildignore+=*DS_Store*
