@@ -30,10 +30,10 @@ Bundle "gmarik/vundle"
 
 Bundle "kien/ctrlp.vim"
 Bundle "JuliaLang/julia-vim"
-Bundle "itchyny/lightline.vim"
 Bundle "scrooloose/nerdtree"
 Bundle "scrooloose/syntastic"
 Bundle "majutsushi/tagbar"
+Bundle "bling/vim-airline"
 Bundle "kchmck/vim-coffee-script"
 Bundle "altercation/vim-colors-solarized"
 Bundle "Lokaltog/vim-easymotion"
@@ -78,6 +78,11 @@ try
 catch /E185:/ " Colorscheme not found
   colorscheme default
 endtry
+
+
+" Airline -------------------------------------------------------------------
+let g:airline_powerline_fonts = 1
+let g:airline_theme = "powerlineish"
 
 
 " CtrlP ---------------------------------------------------------------------
