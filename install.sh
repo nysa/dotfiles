@@ -22,5 +22,5 @@ git submodule update --init
 echo "Submodules installed!"
 
 echo "Installing Vundle bundles..."
-vim +BundleInstall +qall
+vim +PluginInstall +qall
 echo "Vundle bundles installed!"

@@ -22,25 +22,29 @@ syntax on                         " Turn on syntax highlighting
 " Vundle --------------------------------------------------------------------
 filetype off                      " Required by Vundle
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " Let Vundle manage Vundle
-Bundle "gmarik/vundle"
+Plugin 'VundleVim/Vundle.vim'
 
-Bundle "kien/ctrlp.vim"
-Bundle "JuliaLang/julia-vim"
-Bundle "scrooloose/nerdtree"
-Bundle "scrooloose/syntastic"
-Bundle "majutsushi/tagbar"
-Bundle "vim-airline/vim-airline"
-Bundle "vim-airline/vim-airline-themes"
-Bundle "kchmck/vim-coffee-script"
-Bundle "altercation/vim-colors-solarized"
-Bundle "Lokaltog/vim-easymotion"
-Bundle "fatih/vim-go"
-Bundle "pangloss/vim-javascript"
-Bundle "derekwyatt/vim-scala"
+Plugin 'kien/ctrlp.vim'
+Plugin 'JuliaLang/julia-vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'majutsushi/tagbar'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'tpope/vim-fugitive'
+Plugin 'fatih/vim-go'
+Plugin 'pangloss/vim-javascript'
+Plugin 'derekwyatt/vim-scala'
+
+call vundle#end()
+filetype plugin indent on
 
 
 " Indents -------------------------------------------------------------------
