@@ -34,11 +34,11 @@ Plugin 'scrooloose/syntastic'
 Plugin 'majutsushi/tagbar'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'tpope/vim-fugitive'
 Plugin 'fatih/vim-go'
 Plugin 'pangloss/vim-javascript'
+Plugin 'lifepillar/vim-solarized8'
 
 call vundle#end()
 filetype plugin indent on
@@ -73,10 +73,12 @@ set wildignore+=*.png,*.jpg,*.gif
 
 " Colorscheme ---------------------------------------------------------------
 try
+  set termguicolors
+  set t_ut= " Disable background color erase
+
   set background=dark
-  let g:solarized_termcolors = $t_Co
-  let g:solarized_visibility = "low"    " Set visiblity for whitespace chars
-  colorscheme solarized
+  let g:solarized_visibility = "low" " Set visiblity for whitespace chars
+  colorscheme solarized8_dark
 catch /E185:/ " Colorscheme not found
   colorscheme default
 endtry
