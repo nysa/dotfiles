@@ -76,7 +76,6 @@ try
   set termguicolors
   set t_ut= " Disable background color erase
 
-  set background=dark
   let g:solarized_visibility = "low" " Set visiblity for whitespace chars
   colorscheme solarized8_dark
 catch /E185:/ " Colorscheme not found
