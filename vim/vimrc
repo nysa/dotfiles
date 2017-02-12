@@ -6,6 +6,7 @@ set number                        " Line numbers
 set nowrap                        " Disable word wrap
 set autoread                      " Reload files changed outside Vim
 set hlsearch                      " Enable search highlighting
+set incsearch                     " Start searching before pressing enter
 set colorcolumn=81                " Column highlight
 set laststatus=2                  " Always show status line
 set mouse=a                       " Enable mouse
