@@ -13,6 +13,7 @@ set mouse=a                       " Enable mouse
 set clipboard=unnamed             " Use system clipboard
 set backspace=indent,eol,start    " Allow backspace in insert mode
 set list listchars=tab:▸\ ,eol:¬  " Show tab and end of line characters
+set scrolloff=1                   " Show at least one line above/below cursor
 set spell spelllang=en_us         " Enable spell checking
 
 let mapleader = ","               " Change leader from \ to ,
