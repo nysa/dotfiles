@@ -40,7 +40,7 @@ Plugin 'Lokaltog/vim-easymotion'
 Plugin 'tpope/vim-fugitive'
 Plugin 'fatih/vim-go'
 Plugin 'pangloss/vim-javascript'
-Plugin 'lifepillar/vim-solarized8'
+Plugin 'rakr/vim-one'
 
 call vundle#end()
 filetype plugin indent on
@@ -78,8 +78,8 @@ try
   set termguicolors
   set t_ut= " Disable background color erase
 
-  let g:solarized_visibility = "low" " Set visiblity for whitespace chars
-  colorscheme solarized8_dark
+  set background=light
+  colorscheme one
 catch /E185:/ " Colorscheme not found
   colorscheme default
 endtry
@@ -87,7 +87,7 @@ endtry
 
 " Airline -------------------------------------------------------------------
 let g:airline_powerline_fonts = 1
-let g:airline_theme = "powerlineish"
+let g:airline_theme = "one"
 
 
 " CtrlP ---------------------------------------------------------------------
