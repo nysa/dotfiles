@@ -30,7 +30,7 @@ call vundle#begin()
 " Let Vundle manage Vundle
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'majutsushi/tagbar'
