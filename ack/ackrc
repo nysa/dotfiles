@@ -1,8 +1,0 @@
---color
-
---ignore-dir=.bundle
---ignore-dir=doc
---ignore-dir=log
---ignore-dir=coverage
---ignore-dir=bower_components
-
