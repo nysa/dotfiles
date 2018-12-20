@@ -1,3 +1,30 @@
-[submodule "vim/vim/bundle/Vundle.vim"]
-	path = vim/vim/bundle/Vundle.vim
-	url = git@github.com:VundleVim/Vundle.vim.git
+[submodule "vim/vim/pack/bundle/start/fzf"]
+	path = vim/vim/pack/bundle/start/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "vim/vim/pack/bundle/start/vim-one"]
+	path = vim/vim/pack/bundle/start/vim-one
+	url = https://github.com/rakr/vim-one.git
+[submodule "vim/vim/pack/bundle/start/nerdtree"]
+	path = vim/vim/pack/bundle/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/vim/pack/bundle/start/tagbar"]
+	path = vim/vim/pack/bundle/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "vim/vim/pack/bundle/start/vim-airline"]
+	path = vim/vim/pack/bundle/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim/vim/pack/bundle/start/vim-airline-themes"]
+	path = vim/vim/pack/bundle/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "vim/vim/pack/bundle/start/vim-easymotion"]
+	path = vim/vim/pack/bundle/start/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion.git
+[submodule "vim/vim/pack/bundle/start/vim-fugitive"]
+	path = vim/vim/pack/bundle/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/vim/pack/bundle/start/syntastic"]
+	path = vim/vim/pack/bundle/start/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "vim/vim/pack/bundle/start/typescript-vim"]
+	path = vim/vim/pack/bundle/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
