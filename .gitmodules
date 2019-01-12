@@ -28,3 +28,6 @@
 [submodule "vim/vim/pack/bundle/start/typescript-vim"]
 	path = vim/vim/pack/bundle/start/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "vim/vim/pack/bundle/start/vim-vue"]
+	path = vim/vim/pack/bundle/start/vim-vue
+	url = https://github.com/posva/vim-vue.git
