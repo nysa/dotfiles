@@ -18,3 +18,8 @@
 [push]
   default = upstream
 
+[pull]
+  rebase = false
+
+[commit]
+  gpgsign = true
