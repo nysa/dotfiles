@@ -20,6 +20,8 @@ let mapleader = ","               " Change leader from \ to ,
 
 syntax on                         " Turn on syntax highlighting
 
+au FileType gitcommit setlocal colorcolumn=73
+
 
 " Indents -------------------------------------------------------------------
 set autoindent
