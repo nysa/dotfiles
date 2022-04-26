@@ -3,7 +3,7 @@
 cd "$( dirname "$0" )"
 
 echo "Symlinking dotfiles..."
-for f in ack/* bin/* git/* tmux/* vim/* ruby/*; do
+for f in bin/* git/* tmux/* vim/* ripgrep/* ruby/*; do
   filepath=( ${f//\// } )
   filename=${filepath[$((${#filepath[@]} - 1))]}
   src="$(pwd)/$f"
